@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+
+body a, h1, h2, h3, button{
+    padding-top: 5%;
+}
+
+#footer{
+    background-color: navy !important;
+    padding:0;
+    margin:0;
+    
+}
+
+footer {
+    color: white !important;
+    padding: 0;
+    margin:0;
+}
+
+nav{
+    background-image: linear-gradient(to right, rgb(39, 33, 212) , rgb(0, 255, 255));
+}
+
+nav a, nav button{
+    color: white !important;
+}
+
+#groupbtn{
+    background-color: rgb(62, 62, 243);
+    border-color: rgb(62, 62, 243);
+}
+
+#groupbtn:hover{
+    background-color: rgb(120, 172, 244);
+    border-color: rgb(120, 172, 244);
+}
+
+#title{
+    padding:5%;
+}
+
+img{
+    height: 35px;
+    width:35px;
+}
+
+@media(max-width:1200px){
+    img{
+        height: 30px;
+        width:30px;
+    }
+
+    td{
+        border: 2% solid, gray;
+    }
+}
