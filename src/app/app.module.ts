@@ -10,14 +10,15 @@ import { SiteLayoutModule } from './site-layout/site-layout.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     OdersModule,
-    SiteLayoutModule
+    SiteLayoutModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
